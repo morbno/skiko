@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d00e9ed8-1cb5-4d28-8f13-da662762ac51" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/docs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/publishToMavenLocal.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/publishToMavenLocal.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEVELOPMENT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/src/main/java/org/jetbrains/skiko/sample/Clocks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/src/main/java/org/jetbrains/skiko/sample/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/src/main/java/org/jetbrains/skiko/sample/RotatingSquare.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/src/main/res/values/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAndroidSample/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/fonts/JetBrainsMono-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/resources/fonts/JetBrainsMono-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/src/main/kotlin/SkiaAwtSample/App.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/src/main/kotlin/SkiaAwtSample/ClocksAwt.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/src/main/kotlin/SkiaAwtSample/PureSwing.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/src/main/kotlin/SkiaAwtSample/SkiaPanel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaAwtSample/src/main/kotlin/SkiaAwtSample/SwingSkia.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaJsSample/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaJsSample/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaJsSample/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaJsSample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaJsSample/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaJsSample/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaJsSample/src/jsMain/kotlin/org/jetbrains/skiko/sample/js/App.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaJsSample/src/jsMain/kotlin/org/jetbrains/skiko/sample/js/BouncingBalls.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaJsSample/src/jsMain/kotlin/org/jetbrains/skiko/sample/js/Examples.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaJsSample/src/jsMain/resources/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaJsSample/src/jsMain/resources/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/import-build-gradle-project.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/ios-run-in-appcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/plists/Ios/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/project.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/androidMain/kotlin/org/jetbrains/skiko/sample/App.android.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/awtMain/kotlin/org/jetbrains/skiko/sample/App.awt.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/awtMain/kotlin/org/jetbrains/skiko/sample/AwtClocks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/commonMain/kotlin/org/jetbrains/skiko/sample/BouncingBalls.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/commonMain/kotlin/org/jetbrains/skiko/sample/Clocks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/commonMain/kotlin/org/jetbrains/skiko/sample/RotatingSquare.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/iosAppMain/apple/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/iosAppMain/apple/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/iosAppMain/apple/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/iosAppMain/apple/SceneDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/iosMain/kotlin/org/jetbrains/skiko/sample/App.ios.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/iosMain/kotlin/org/jetbrains/skiko/sample/IosClocks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/iosMain/kotlin/org/jetbrains/skiko/sample/SwiftHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/iosMain/kotlin/org/jetbrains/skiko/sample/getSkikoViewContoller.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/jsMain/kotlin/org/jetbrains/skiko/sample/App.js.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/jsMain/kotlin/org/jetbrains/skiko/sample/JsClocks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/jsMain/resources/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/jsMain/resources/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/macosMain/kotlin/org/jetbrains/skiko/sample/App.macos.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/SkiaMultiplatformSample/src/macosMain/kotlin/org/jetbrains/skiko/sample/MacosClocks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/.run/publishToMavenLocal.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/.run/test.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/test.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/RELEASE.md" beforeDir="false" afterPath="$PROJECT_DIR$/RELEASE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/AbstractSkikoNativeToolTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/AbstractSkikoNativeToolTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/CompileSkikoCppTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/CompileSkikoCppTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/LinkSkikoTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/LinkSkikoTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/LinkSkikoWasmTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/LinkSkikoWasmTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/SealAndSignSharedLibraryTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/SealAndSignSharedLibraryTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/ToolMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/ToolMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/internal/utils/ArgBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/internal/utils/ArgBuilder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/internal/utils/RunExternalProcessWork.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/internal/utils/RunExternalProcessWork.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/internal/utils/RunExternalProcessWorkParameters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/internal/utils/RunExternalProcessWorkParameters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/internal/utils/SourceToOutputMapping.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/internal/utils/SourceToOutputMapping.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/internal/utils/UnknownSourceRootException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/internal/utils/UnknownSourceRootException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/internal/utils/utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/internal/utils/utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/pkgConfigTool.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/pkgConfigTool.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/properties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/properties.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/buildSrc/src/main/kotlin/windowsSdkPaths.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/windowsSdkPaths.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/ci/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ci/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-amd64/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-amd64/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-amd64/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-amd64/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-amd64/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-android-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-android-amd64/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-android-amd64/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-android-amd64/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-android-amd64/image-name.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-android-amd64/image-name.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-android-amd64/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-android-amd64/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-arm64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-arm64/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-arm64/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-arm64/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-arm64/image-name.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-arm64/image-name.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-arm64/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-arm64/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-emscripten-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-emscripten-amd64/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/docker/linux-emscripten-amd64/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/linux-emscripten-amd64/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/karma.config.d/wasm.js" beforeDir="false" afterPath="$PROJECT_DIR$/karma.config.d/wasm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/androidMain/kotlin/org/jetbrains/skiko/Actuals.android.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidMain/kotlin/org/jetbrains/skiko/Actuals.android.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/androidMain/kotlin/org/jetbrains/skiko/Convertors.android.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidMain/kotlin/org/jetbrains/skiko/Convertors.android.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/androidMain/kotlin/org/jetbrains/skiko/Renderer.android.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidMain/kotlin/org/jetbrains/skiko/Renderer.android.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/androidMain/kotlin/org/jetbrains/skiko/SkiaLayer.android.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidMain/kotlin/org/jetbrains/skiko/SkiaLayer.android.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/androidMain/kotlin/org/jetbrains/skiko/SkikoGesturesDetector.android.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidMain/kotlin/org/jetbrains/skiko/SkikoGesturesDetector.android.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/androidMain/kotlin/org/jetbrains/skiko/SkikoInput.android.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidMain/kotlin/org/jetbrains/skiko/SkikoInput.android.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/androidMain/kotlin/org/jetbrains/skiko/SkikoKey.android.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidMain/kotlin/org/jetbrains/skiko/SkikoKey.android.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/include/exceptions_handler.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/include/exceptions_handler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/include/jni_helpers.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/include/jni_helpers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/include/window_util.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/include/window_util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/include/xrandr_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/include/xrandr_utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/linux/SoftwareRedrawer.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/linux/SoftwareRedrawer.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/linux/awt.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/linux/awt.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/linux/display.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/linux/display.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/linux/drawlayer.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/linux/drawlayer.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/linux/redrawer.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/linux/redrawer.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/linux/stubs.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/linux/stubs.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/linux/theme.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/linux/theme.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/linux/xrandr_utils.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/linux/xrandr_utils.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/windows/HardwareInfo.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/windows/HardwareInfo.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/windows/SoftwareRedrawer.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/windows/SoftwareRedrawer.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/windows/direct3DContext.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/windows/direct3DContext.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/windows/directXRedrawer.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/windows/directXRedrawer.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/windows/drawlayer.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/windows/drawlayer.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/windows/exceptions_handler.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/windows/exceptions_handler.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/windows/openGLRedrawer.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/windows/openGLRedrawer.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/cpp/windows/window_util.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/cpp/windows/window_util.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/AWT.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/AWT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/AWTLinuxDrawingSurface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/AWTLinuxDrawingSurface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/Actuals.awt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/Actuals.awt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/ClipComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/ClipComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/Convertors.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/Convertors.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/Display.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/Display.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/FontInterop.awt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/FontInterop.awt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/HardwareLayer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/HardwareLayer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/MainUIDispatcher.awt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/MainUIDispatcher.awt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/PlatformOperations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/PlatformOperations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/RenderExceptionsHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/RenderExceptionsHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/SkiaLayer.awt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/SkiaLayer.awt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/SkikoInput.awt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/SkikoInput.awt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/SkikoKey.awt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/SkikoKey.awt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/SystemTheme.awt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/SystemTheme.awt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/context/Direct3DContextHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/context/Direct3DContextHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/context/DirectSoftwareContextHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/context/DirectSoftwareContextHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/context/JvmContextHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/context/JvmContextHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/context/MetalContextHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/context/MetalContextHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/context/OpenGLContextHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/context/OpenGLContextHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/context/SoftwareContextHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/context/SoftwareContextHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/AWTRedrawer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/AWTRedrawer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/AbstractDirectSoftwareRedrawer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/AbstractDirectSoftwareRedrawer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/Direct3DRedrawer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/Direct3DRedrawer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/LinuxOpenGLRedrawer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/LinuxOpenGLRedrawer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/LinuxSoftwareRedrawer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/LinuxSoftwareRedrawer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/MetalRedrawer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/MetalRedrawer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/SoftwareRedrawer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/SoftwareRedrawer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/WindowsOpenGLRedrawer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/WindowsOpenGLRedrawer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/WindowsSoftwareRedrawer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/kotlin/org/jetbrains/skiko/redrawer/WindowsSoftwareRedrawer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/objectiveC/macos/Drawlayer.mm" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/objectiveC/macos/Drawlayer.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/objectiveC/macos/InputMethod.mm" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/objectiveC/macos/InputMethod.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/objectiveC/macos/MetalRedrawer.mm" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/objectiveC/macos/MetalRedrawer.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtMain/objectiveC/macos/NativeApplication.mm" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtMain/objectiveC/macos/NativeApplication.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtTest/kotlin/org/jetbrains/skiko/AwtFontInteropTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtTest/kotlin/org/jetbrains/skiko/AwtFontInteropTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtTest/kotlin/org/jetbrains/skiko/ConvertorsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtTest/kotlin/org/jetbrains/skiko/ConvertorsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtTest/kotlin/org/jetbrains/skiko/SeveralClassloadersTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtTest/kotlin/org/jetbrains/skiko/SeveralClassloadersTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtTest/kotlin/org/jetbrains/skiko/SkiaLayerPerformanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtTest/kotlin/org/jetbrains/skiko/SkiaLayerPerformanceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtTest/kotlin/org/jetbrains/skiko/SkiaLayerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtTest/kotlin/org/jetbrains/skiko/SkiaLayerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtTest/kotlin/org/jetbrains/skiko/util/Images.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtTest/kotlin/org/jetbrains/skiko/util/Images.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtTest/kotlin/org/jetbrains/skiko/util/ScreenshotTestRule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtTest/kotlin/org/jetbrains/skiko/util/ScreenshotTestRule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/awtTest/kotlin/org/jetbrains/skiko/util/UiTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/awtTest/kotlin/org/jetbrains/skiko/util/UiTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/cpp/common/include/FontRunIterator.hh" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/cpp/common/include/FontRunIterator.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/cpp/common/include/RunRecordClone.hh" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/cpp/common/include/RunRecordClone.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/cpp/common/include/TexBlobIter.hh" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/cpp/common/include/TexBlobIter.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/cpp/common/include/TextLine.hh" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/cpp/common/include/TextLine.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/cpp/common/include/TextLineRunHandler.hh" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/cpp/common/include/TextLineRunHandler.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/cpp/common/include/mppinterop.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/cpp/common/include/mppinterop.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/cpp/common/mppinterop.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/cpp/common/mppinterop.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/cpp/common/shaper/FontRunIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/cpp/common/shaper/FontRunIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/AnimationDisposalMethod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/AnimationDisposalMethod.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/AnimationDisposalMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/AnimationDisposalMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/AnimationFrameInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/AnimationFrameInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/BackendRenderTarget.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/BackendRenderTarget.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Bitmap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Bitmap.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/BlendMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/BlendMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/BreakIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/BreakIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Canvas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Canvas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ClipMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ClipMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Codec.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Codec.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Color.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Color4f.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Color4f.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ColorAlphaType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ColorAlphaType.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ColorChannel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ColorChannel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ColorFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ColorFilter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ColorInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ColorInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ColorMatrix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ColorMatrix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ColorSpace.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ColorSpace.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ColorType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ColorType.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ContentChangeMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ContentChangeMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/CubicResampler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/CubicResampler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Data.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/DirectContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/DirectContext.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Drawable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Drawable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/EncodedImageFormat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/EncodedImageFormat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/EncodedOrigin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/EncodedOrigin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Expects.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Expects.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FilterBlurMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FilterBlurMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FilterMipmap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FilterMipmap.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FilterMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FilterMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FilterQuality.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FilterQuality.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FilterTileMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FilterTileMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Font.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Font.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontEdging.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontEdging.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontExtents.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontExtents.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontFamilyName.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontFamilyName.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontFeature.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontFeature.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontHinting.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontHinting.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontMetrics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontMetrics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontMgr.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontMgr.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontSlant.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontSlant.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontStyle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontStyleSet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontStyleSet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontVariation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontVariation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontVariationAxis.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontVariationAxis.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontWeight.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontWeight.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FontWidth.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FontWidth.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FourByteTag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FourByteTag.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/FramebufferFormat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/FramebufferFormat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/GLBackendState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/GLBackendState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/GradientStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/GradientStyle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Graphics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Graphics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/IHasImageInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/IHasImageInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/IPoint.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/IPoint.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/IRange.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/IRange.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/IRect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/IRect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ISize.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ISize.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Image.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ImageFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ImageFilter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ImageInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ImageInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/InversionMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/InversionMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ManagedString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ManagedString.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/MaskFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/MaskFilter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Matrix22.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Matrix22.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Matrix33.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Matrix33.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Matrix44.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Matrix44.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/MipmapMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/MipmapMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/OutputWStream.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/OutputWStream.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Paint.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Paint.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PaintFilterCanvas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PaintFilterCanvas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PaintMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PaintMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PaintStrokeCap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PaintStrokeCap.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PaintStrokeJoin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PaintStrokeJoin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Path.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Path.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PathDirection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PathDirection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PathEffect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PathEffect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PathEllipseArc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PathEllipseArc.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PathFillMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PathFillMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PathMeasure.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PathMeasure.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PathOp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PathOp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PathSegment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PathSegment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PathSegmentIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PathSegmentIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PathSegmentMask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PathSegmentMask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PathVerb.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PathVerb.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Picture.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Picture.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PictureRecorder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PictureRecorder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PixelGeometry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PixelGeometry.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/PixelRef.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/PixelRef.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Pixmap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Pixmap.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Point.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Point.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Point3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Point3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/RRect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/RRect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/RSXform.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/RSXform.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Rect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Rect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Region.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Region.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/RuntimeEffect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/RuntimeEffect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/RuntimeShaderBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/RuntimeShaderBuilder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/SamplingMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/SamplingMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Shader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Shader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/ShadowUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/ShadowUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/StdVectorDecoder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/StdVectorDecoder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Surface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Surface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/SurfaceColorFormat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/SurfaceColorFormat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/SurfaceOrigin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/SurfaceOrigin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/SurfaceProps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/SurfaceProps.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/TextBlob.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/TextBlob.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/TextBlobBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/TextBlobBuilder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/TextLine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/TextLine.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/Typeface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/Typeface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/U16String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/U16String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/VertexMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/VertexMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/WStream.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/WStream.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/impl/Library.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/impl/Library.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/impl/Managed.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/impl/Managed.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/impl/Native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/impl/Native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/impl/NativePointerArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/impl/NativePointerArray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/impl/RefCnt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/impl/RefCnt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/impl/Stats.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/impl/Stats.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/Affinity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/Affinity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/Alignment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/Alignment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/BaselineMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/BaselineMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/DecorationLineStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/DecorationLineStyle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/DecorationStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/DecorationStyle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/Direction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/Direction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/FontCollection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/FontCollection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/FontRastrSettings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/FontRastrSettings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/HeightMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/HeightMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/LineMetrics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/LineMetrics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/Paragraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/Paragraph.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/ParagraphBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/ParagraphBuilder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/ParagraphCache.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/ParagraphCache.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/ParagraphStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/ParagraphStyle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/PlaceholderAlignment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/PlaceholderAlignment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/PlaceholderStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/PlaceholderStyle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/PositionWithAffinity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/PositionWithAffinity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/RectHeightMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/RectHeightMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/RectWidthMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/RectWidthMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/Shadow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/Shadow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/StrutStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/StrutStyle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/TextBox.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/TextBox.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/TextIndent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/TextIndent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/TextStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/TextStyle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/TextStyleAttribute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/TextStyleAttribute.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/paragraph/TypefaceFontProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/paragraph/TypefaceFontProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/BidiRun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/BidiRun.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/FontMgrRunIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/FontMgrRunIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/FontRun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/FontRun.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/HbIcuScriptRunIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/HbIcuScriptRunIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/IcuBidiRunIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/IcuBidiRunIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/LanguageRun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/LanguageRun.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/ManagedRunIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/ManagedRunIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/RunHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/RunHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/RunInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/RunInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/ScriptRun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/ScriptRun.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/Shaper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/Shaper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/ShapingOptions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/ShapingOptions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/TextBlobBuilderRunHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/TextBlobBuilderRunHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/TrivialBidiRunIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/TrivialBidiRunIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/TrivialFontRunIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/TrivialFontRunIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/TrivialLanguageRunIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/TrivialLanguageRunIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/shaper/TrivialScriptRunIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/shaper/TrivialScriptRunIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/skottie/Animation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/skottie/Animation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/skottie/AnimationBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/skottie/AnimationBuilder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/skottie/AnimationBuilderFlag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/skottie/AnimationBuilderFlag.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/skottie/LogLevel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/skottie/LogLevel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/skottie/Logger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/skottie/Logger.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/skottie/RenderFlag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/skottie/RenderFlag.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/sksg/InvalidationController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/sksg/InvalidationController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGCanvas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGCanvas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGContainer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGContainer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGDOM.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGDOM.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGLength.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGLength.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGLengthContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGLengthContext.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGLengthType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGLengthType.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGLengthUnit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGLengthUnit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGNode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGPreserveAspectRatio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGPreserveAspectRatio.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGPreserveAspectRatioAlign.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGPreserveAspectRatioAlign.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGPreserveAspectRatioScale.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGPreserveAspectRatioScale.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGSVG.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGSVG.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGTag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGTag.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGTransformableNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skia/svg/SVGTransformableNode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/Annotations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/Annotations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/ClipRectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/ClipRectangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/Cursor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/Cursor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/Events.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/Events.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/Expects.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/Expects.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/FPSCounter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/FPSCounter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/FrameDispatcher.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/FrameDispatcher.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/GraphicsApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/GraphicsApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/OsArch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/OsArch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/Platform.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/Platform.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/RenderException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/RenderException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/RendezvousBroadcastChannel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/RendezvousBroadcastChannel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/Resourses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/Resourses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/SkiaLayer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/SkiaLayer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/SkiaLayerAnalytics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/SkiaLayerAnalytics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/SkikoInput.common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/SkikoInput.common.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/SkikoKey.common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/SkikoKey.common.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/SkikoView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/SkikoView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/SystemTheme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/SystemTheme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/context/ContextHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/context/ContextHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonMain/kotlin/org/jetbrains/skiko/redrawer/Redrawer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/org/jetbrains/skiko/redrawer/Redrawer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/BitmapTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/BitmapTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/BreakIteratorTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/BreakIteratorTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/CanvasTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/CanvasTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/CodecTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/CodecTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/ColorFilterTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/ColorFilterTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/ColorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/ColorTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/DataTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/DataTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/DrawableTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/DrawableTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/FontMgrTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/FontMgrTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/FontStyleSetTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/FontStyleSetTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/FontTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/FontTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/GraphicsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/GraphicsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/ImageFilterTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/ImageFilterTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/ImageTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/ImageTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/ManagedStringTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/ManagedStringTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/MaskFilterTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/MaskFilterTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/PaintFilterCanvasTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/PaintFilterCanvasTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/PaintTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/PaintTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/ParagraphTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/ParagraphTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/PathEffectTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/PathEffectTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/PathMeasureTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/PathMeasureTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/PathTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/PathTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/PathTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/PathTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/PatternMatcherTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/PatternMatcherTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/PictureTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/PictureTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/PixmapTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/PixmapTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/RegionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/RegionTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/RuntimeEffectTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/RuntimeEffectTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/SamplingModeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/SamplingModeTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/ShaderTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/ShaderTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/ShaperTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/ShaperTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/StrutStyleTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/StrutStyleTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/SurfaceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/SurfaceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/SvgTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/SvgTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/TextBlobBuilderTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/TextBlobBuilderTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/TextBlobTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/TextBlobTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/TextLineTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/TextLineTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/impl/InteropScopeCommonTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/impl/InteropScopeCommonTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/paragraph/FontCollectionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/paragraph/FontCollectionTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/skottie/AnimationTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/skottie/AnimationTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/skottie/LoggerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/skottie/LoggerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/sksg/InvalidationControllerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/sksg/InvalidationControllerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/util/assertCloseEnough.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/util/assertCloseEnough.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/util/assertContentNotEquals.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/util/assertContentNotEquals.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/util/assertContentSame.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/util/assertContentSame.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/util/imageFromIntArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/util/imageFromIntArray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/util/makeFromResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/util/makeFromResource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skia/util/printImageBitmap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skia/util/printImageBitmap.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skiko/ResourceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skiko/ResourceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skiko/SkiaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skiko/SkiaTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skiko/TypefaceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skiko/TypefaceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skiko/paragraph/ParagraphStyleTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skiko/paragraph/ParagraphStyleTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skiko/paragraph/TextStyleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skiko/paragraph/TextStyleTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skiko/resourceExt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skiko/resourceExt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skiko/tests/TestHelpers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skiko/tests/TestHelpers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skiko/tests/TestUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skiko/tests/TestUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/kotlin/org/jetbrains/skiko/util/testSamples.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/org/jetbrains/skiko/util/testSamples.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/resources/colored_square.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/resources/colored_square.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/resources/colors_8x8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/resources/colors_8x8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/resources/fonts/FiraCode-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/resources/fonts/FiraCode-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/resources/fonts/Inter-Hinted-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/resources/fonts/Inter-Hinted-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/resources/fonts/Inter-V.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/resources/fonts/Inter-V.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/resources/fonts/JetBrainsMono-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/resources/fonts/JetBrainsMono-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/resources/fonts/JetBrainsMono-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/resources/fonts/JetBrainsMono-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/resources/fonts/JetBrainsMono-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/resources/hello_world.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/resources/hello_world.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/commonTest/resources/skottie/test_animation01.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/resources/skottie/test_animation01.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/darwinMain/kotlin/org/jetbrains/skiko/Dispatchers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/darwinMain/kotlin/org/jetbrains/skiko/Dispatchers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/darwinTest/kotlin/org/jetbrains/skiko/resourcePath.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/darwinTest/kotlin/org/jetbrains/skiko/resourcePath.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/Actuals.ios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/Actuals.ios.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/Convertors.ios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/Convertors.ios.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/SkiaLayer.ios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/SkiaLayer.ios.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/SkikoGesturesDetector.ios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/SkikoGesturesDetector.ios.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/SkikoInput.ios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/SkikoInput.ios.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/SkikoKey.ios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/SkikoKey.ios.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/SkikoUIView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/SkikoUIView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/SkikoViewController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/SkikoViewController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/SystemTheme.ios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/SystemTheme.ios.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/TextActions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/TextActions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/context/MetalContextHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/context/MetalContextHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosMain/kotlin/org/jetbrains/skiko/redrawer/MetalRedrawer.ios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/org/jetbrains/skiko/redrawer/MetalRedrawer.ios.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosTest/kotlin/org/jetbrains/skiko/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosTest/kotlin/org/jetbrains/skiko/Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/iosTest/resources/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosTest/resources/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/cpp/NotoMono-Regular.ttf.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/cpp/NotoMono-Regular.ttf.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/cpp/wrapper.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/cpp/wrapper.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skia/Actuals.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skia/Actuals.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skia/impl/Library.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skia/impl/Library.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skia/impl/Managed.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skia/impl/Managed.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skia/impl/Native.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skia/impl/Native.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skia/impl/RefCnt.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skia/impl/RefCnt.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skia/impl/Stats.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skia/impl/Stats.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skiko/Actuals.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skiko/Actuals.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skiko/CanvasRenderer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skiko/CanvasRenderer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skiko/Convertors.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skiko/Convertors.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skiko/OsArch.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skiko/OsArch.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skiko/Resources.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skiko/Resources.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skiko/SkiaLayer.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skiko/SkiaLayer.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skiko/SkikoInput.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skiko/SkikoInput.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skiko/SkikoKey.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skiko/SkikoKey.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skiko/SystemTheme.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skiko/SystemTheme.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/kotlin/org/jetbrains/skiko/wasm/Wrapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/org/jetbrains/skiko/wasm/Wrapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsMain/resources/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/resources/setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsTest/kotlin/TestUtils.js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsTest/kotlin/TestUtils.js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsTest/kotlin/org/jetbrains/skia/impl/InteropScopeTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsTest/kotlin/org/jetbrains/skia/impl/InteropScopeTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsTest/kotlin/org/jetbrains/skia/util/makeFromResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsTest/kotlin/org/jetbrains/skia/util/makeFromResource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsTest/kotlin/org/jetbrains/skiko/ResourcesTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsTest/kotlin/org/jetbrains/skiko/ResourcesTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jsTest/kotlin/org/jetbrains/skiko/resourcePath.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsTest/kotlin/org/jetbrains/skiko/resourcePath.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/BackendRenderTarget.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/BackendRenderTarget.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Bitmap.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Bitmap.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/BreakIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/BreakIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Canvas.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Canvas.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Codec.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Codec.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/ColorFilter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/ColorFilter.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/ColorSpace.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/ColorSpace.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/ColorType.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/ColorType.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Data.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Data.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/DirectContext.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/DirectContext.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Drawable.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Drawable.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Font.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Font.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/FontMgr.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/FontMgr.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/FontStyleSet.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/FontStyleSet.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Graphics.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Graphics.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Image.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Image.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/ImageFilter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/ImageFilter.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/ManagedString.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/ManagedString.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/MaskFilter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/MaskFilter.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/OutputWStream.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/OutputWStream.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Paint.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Paint.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/PaintFilterCanvas.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/PaintFilterCanvas.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Path.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Path.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/PathEffect.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/PathEffect.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/PathMeasure.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/PathMeasure.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/PathSegmentIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/PathSegmentIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Picture.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Picture.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/PictureRecorder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/PictureRecorder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/PixelRef.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/PixelRef.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Pixmap.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Pixmap.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Region.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Region.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/RuntimeEffect.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/RuntimeEffect.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/RuntimeShaderBuilder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/RuntimeShaderBuilder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Shader.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Shader.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/ShadowUtils.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/ShadowUtils.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/StdVectorDecoder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/StdVectorDecoder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Surface.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Surface.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/TextBlob.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/TextBlob.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/TextBlobBuilder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/TextBlobBuilder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/TextLine.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/TextLine.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/Typeface.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/Typeface.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/U16String.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/U16String.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/awt_jni.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/awt_jni.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/impl/BufferUtil.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/impl/BufferUtil.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/impl/Library.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/impl/Library.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/impl/Managed.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/impl/Managed.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/impl/RefCnt.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/impl/RefCnt.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/interop.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/interop.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/interop.hh" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/interop.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/jawt.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/jawt.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/openglapi.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/openglapi.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/paragraph/FontCollection.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/paragraph/FontCollection.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/paragraph/Paragraph.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/paragraph/Paragraph.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/paragraph/ParagraphBuilder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/paragraph/ParagraphBuilder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/paragraph/ParagraphCache.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/paragraph/ParagraphCache.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/paragraph/ParagraphStyle.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/paragraph/ParagraphStyle.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/paragraph/StrutStyle.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/paragraph/StrutStyle.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/paragraph/TextStyle.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/paragraph/TextStyle.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/paragraph/TypefaceFontProvider.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/paragraph/TypefaceFontProvider.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/paragraph/interop.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/paragraph/interop.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/paragraph/interop.hh" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/paragraph/interop.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/render.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/render.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/shaper/FontMgrRunIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/shaper/FontMgrRunIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/shaper/HbIcuScriptRunIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/shaper/HbIcuScriptRunIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/shaper/IcuBidiRunIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/shaper/IcuBidiRunIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/shaper/ManagedRunIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/shaper/ManagedRunIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/shaper/Shaper.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/shaper/Shaper.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/shaper/TextBlobBuilderRunHandler.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/shaper/TextBlobBuilderRunHandler.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/shaper/interop.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/shaper/interop.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/shaper/interop.hh" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/shaper/interop.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/skottie/Animation.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/skottie/Animation.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/skottie/AnimationBuilder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/skottie/AnimationBuilder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/skottie/Logger.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/skottie/Logger.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/skottie/interop.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/skottie/interop.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/skottie/interop.hh" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/skottie/interop.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/sksg/InvalidationController.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/sksg/InvalidationController.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/stubs.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/stubs.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/svg/SVGCanvas.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/svg/SVGCanvas.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/svg/SVGDOM.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/svg/SVGDOM.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/svg/SVGNode.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/svg/SVGNode.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/svg/SVGSVG.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/svg/SVGSVG.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/svg/interop.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/svg/interop.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/cpp/common/svg/interop.hh" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/cpp/common/svg/interop.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/Actuals.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/Actuals.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/Data.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/Data.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/Drawable.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/Drawable.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/PaintFilterCanvas.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/PaintFilterCanvas.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/RuntimeEffect.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/RuntimeEffect.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/Typeface.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/Typeface.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/impl/BufferUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/impl/BufferUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/impl/Library.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/impl/Library.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/impl/Log.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/impl/Log.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/impl/Managed.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/impl/Managed.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/impl/Native.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/impl/Native.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/impl/RefCnt.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/impl/RefCnt.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/impl/Stats.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/impl/Stats.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/shaper/JavaTextBidiRunIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/shaper/JavaTextBidiRunIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/shaper/Shaper.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/shaper/Shaper.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/skottie/Animation.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/skottie/Animation.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/skottie/AnimationBuilder.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/skottie/AnimationBuilder.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skia/skottie/Logger.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skia/skottie/Logger.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/Actuals.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/Actuals.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/FrameLimiter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/FrameLimiter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/FrameWatcher.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/FrameWatcher.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/GraphicsApi.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/GraphicsApi.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/Library.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/Library.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/LibraryLoadException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/LibraryLoadException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/NativeApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/NativeApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/OpenGLApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/OpenGLApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/OsArch.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/OsArch.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/RenderFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/RenderFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/RenderTargets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/RenderTargets.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/Resources.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/Resources.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/Setup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/Setup.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/SkiaLayerProperties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/SkiaLayerProperties.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/SkikoProperties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/SkikoProperties.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmMain/kotlin/org/jetbrains/skiko/Task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/org/jetbrains/skiko/Task.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/cpp/TestHelpers.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/cpp/TestHelpers.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/TestUtils.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/TestUtils.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skia/skottie/AnimationTest.jvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skia/skottie/AnimationTest.jvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skia/util/makeFromResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skia/util/makeFromResource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skiko/FrameDispatcherTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skiko/FrameDispatcherTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skiko/FrameLimiterTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skiko/FrameLimiterTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skiko/GraphicsApiTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skiko/GraphicsApiTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skiko/ImageTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skiko/ImageTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skiko/LibraryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skiko/LibraryTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skiko/PaintTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skiko/PaintTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skiko/RendezvousBroadcastChannelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skiko/RendezvousBroadcastChannelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skiko/TaskTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skiko/TaskTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skiko/VersionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skiko/VersionTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skiko/paragraph/TextStyleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skiko/paragraph/TextStyleTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/kotlin/org/jetbrains/skiko/resourcePath.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/org/jetbrains/skiko/resourcePath.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/resources/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/resources/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_CanvasTest_drawVertices.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_CanvasTest_drawVertices.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_PaintTest_canDrawShader.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_PaintTest_canDrawShader.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_PaintTest_filterQuality.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_PaintTest_filterQuality.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_single_window_before_window_show_frame1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_single_window_before_window_show_frame1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_single_window_before_window_show_frame2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_single_window_before_window_show_frame2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_single_window_frame1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_single_window_frame1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_single_window_frame2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_single_window_frame2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_text_Linux.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_text_Linux.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_text_MacOS.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_text_MacOS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_text_Windows.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_text_Windows.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_three_windows_window1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_three_windows_window1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_three_windows_window2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_three_windows_window2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_three_windows_window3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_render_three_windows_window3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_resize_window.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_SkiaLayerTest_resize_window.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_tests_org_jetbrains_skiko_paragraph_TextStyleTest_canApplyBaselineShift.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_tests_org_jetbrains_skiko_paragraph_TextStyleTest_canApplyBaselineShift.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/org_jetbrains_skiko_tests_org_jetbrains_skiko_paragraph_TextStyleTest_canApplyTextIndent.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/org_jetbrains_skiko_tests_org_jetbrains_skiko_paragraph_TextStyleTest_canApplyTextIndent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/testFallbackToSoftware_frame1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/testFallbackToSoftware_frame1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/jvmTest/screenshots/testFallbackToSoftware_frame2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/screenshots/testFallbackToSoftware_frame2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/linuxMain/kotlin/org/jetbrains/skiko/Actuals.linux.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linuxMain/kotlin/org/jetbrains/skiko/Actuals.linux.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/linuxMain/kotlin/org/jetbrains/skiko/SkiaLayer.linux.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linuxMain/kotlin/org/jetbrains/skiko/SkiaLayer.linux.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/linuxMain/kotlin/org/jetbrains/skiko/SkikoInput.linux.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linuxMain/kotlin/org/jetbrains/skiko/SkikoInput.linux.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/linuxMain/kotlin/org/jetbrains/skiko/SkikoKey.linux.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linuxMain/kotlin/org/jetbrains/skiko/SkikoKey.linux.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/linuxTest/kotlin/org/jetbrains/skiko/resourcePath.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linuxTest/kotlin/org/jetbrains/skiko/resourcePath.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/macosMain/kotlin/org/jetbrains/skiko/Actuals.macos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/org/jetbrains/skiko/Actuals.macos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/macosMain/kotlin/org/jetbrains/skiko/Convertors.macos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/org/jetbrains/skiko/Convertors.macos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/macosMain/kotlin/org/jetbrains/skiko/RenderFactory.macos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/org/jetbrains/skiko/RenderFactory.macos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/macosMain/kotlin/org/jetbrains/skiko/SkiaLayer.macos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/org/jetbrains/skiko/SkiaLayer.macos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/macosMain/kotlin/org/jetbrains/skiko/SkikoInput.macos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/org/jetbrains/skiko/SkikoInput.macos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/macosMain/kotlin/org/jetbrains/skiko/SkikoKey.macos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/org/jetbrains/skiko/SkikoKey.macos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/macosMain/kotlin/org/jetbrains/skiko/SystemTheme.macos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/org/jetbrains/skiko/SystemTheme.macos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/macosMain/kotlin/org/jetbrains/skiko/context/MetalContextHandler.macos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/org/jetbrains/skiko/context/MetalContextHandler.macos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/macosMain/kotlin/org/jetbrains/skiko/context/OpenGLContextHandler.macos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/org/jetbrains/skiko/context/OpenGLContextHandler.macos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/macosMain/kotlin/org/jetbrains/skiko/redrawer/MetalRedrawer.macos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/org/jetbrains/skiko/redrawer/MetalRedrawer.macos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/macosMain/kotlin/org/jetbrains/skiko/redrawer/OpenGLRedrawer.macos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/org/jetbrains/skiko/redrawer/OpenGLRedrawer.macos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/BackendRenderTarget.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/BackendRenderTarget.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Bitmap.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Bitmap.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/BreakIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/BreakIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Canvas.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Canvas.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Codec.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Codec.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/ColorFilter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/ColorFilter.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/ColorSpace.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/ColorSpace.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/ColorType.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/ColorType.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Data.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Data.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/DirectContext.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/DirectContext.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Drawable.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Drawable.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Font.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Font.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/FontMgr.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/FontMgr.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/FontStyleSet.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/FontStyleSet.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Graphics.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Graphics.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Image.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Image.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/ImageFilter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/ImageFilter.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Managed.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Managed.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/ManagedString.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/ManagedString.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/MaskFilter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/MaskFilter.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/OutputWStream.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/OutputWStream.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Paint.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Paint.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/PaintFilterCanvas.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/PaintFilterCanvas.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Path.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Path.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/PathEffect.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/PathEffect.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/PathMeasure.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/PathMeasure.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/PathSegmentIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/PathSegmentIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Picture.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Picture.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/PictureRecorder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/PictureRecorder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/PixelRef.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/PixelRef.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Pixmap.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Pixmap.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/RefCnt.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/RefCnt.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Region.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Region.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/RuntimeEffect.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/RuntimeEffect.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/RuntimeShaderBuilder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/RuntimeShaderBuilder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Shader.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Shader.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/ShadowUtils.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/ShadowUtils.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/StdVectorDecoder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/StdVectorDecoder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Surface.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Surface.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/TextBlob.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/TextBlob.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/TextBlobBuilder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/TextBlobBuilder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/TextLine.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/TextLine.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/Typeface.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/Typeface.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/U16String.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/U16String.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/common_interop.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/common_interop.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/paragraph/FontCollection.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/paragraph/FontCollection.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/paragraph/LineMetrics.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/paragraph/LineMetrics.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/paragraph/Paragraph.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/paragraph/Paragraph.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/paragraph/ParagraphBuilder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/paragraph/ParagraphBuilder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/paragraph/ParagraphCache.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/paragraph/ParagraphCache.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/paragraph/ParagraphStyle.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/paragraph/ParagraphStyle.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/paragraph/StrutStyle.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/paragraph/StrutStyle.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/paragraph/TextBox.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/paragraph/TextBox.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/paragraph/TextStyle.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/paragraph/TextStyle.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/paragraph/TypefaceFontProvider.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/paragraph/TypefaceFontProvider.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/render.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/render.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/shaper/FontMgrRunIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/shaper/FontMgrRunIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/shaper/HbIcuScriptRunIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/shaper/HbIcuScriptRunIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/shaper/IcuBidiRunIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/shaper/IcuBidiRunIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/shaper/ManagedRunIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/shaper/ManagedRunIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/shaper/Shaper.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/shaper/Shaper.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/shaper/TextBlobBuilderRunHandler.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/shaper/TextBlobBuilderRunHandler.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/skottie/Animation.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/skottie/Animation.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/skottie/AnimationBuilder.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/skottie/AnimationBuilder.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/skottie/Logger.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/skottie/Logger.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/sksg/InvalidationController.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/sksg/InvalidationController.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/svg/SVGCanvas.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/svg/SVGCanvas.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/svg/SVGDOM.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/svg/SVGDOM.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/svg/SVGNode.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/svg/SVGNode.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/svg/SVGSVG.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/svg/SVGSVG.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/cpp/types.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/cpp/types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/kotlin/org/jetbrains/skia/Drawable.nativejs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/kotlin/org/jetbrains/skia/Drawable.nativejs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/kotlin/org/jetbrains/skia/PaintFilterCanvas.nativejs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/kotlin/org/jetbrains/skia/PaintFilterCanvas.nativejs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/kotlin/org/jetbrains/skia/RuntimeEffect.nativejs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/kotlin/org/jetbrains/skia/RuntimeEffect.nativejs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/kotlin/org/jetbrains/skia/shaper/Shaper.nativejs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/kotlin/org/jetbrains/skia/shaper/Shaper.nativejs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsMain/kotlin/org/jetbrains/skia/skottie/Logger.nativejs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsMain/kotlin/org/jetbrains/skia/skottie/Logger.nativejs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeJsTest/cpp/TestHelpers.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeJsTest/cpp/TestHelpers.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skia/Actuals.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skia/Actuals.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skia/Data.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skia/Data.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skia/Typeface.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skia/Typeface.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skia/impl/Library.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skia/impl/Library.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skia/impl/Managed.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skia/impl/Managed.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skia/impl/Native.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skia/impl/Native.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skia/impl/RefCnt.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skia/impl/RefCnt.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skia/impl/Stats.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skia/impl/Stats.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skia/skottie/Animation.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skia/skottie/Animation.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skia/skottie/AnimationBuilder.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skia/skottie/AnimationBuilder.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skiko/Actuals.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skiko/Actuals.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skiko/OsArch.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skiko/OsArch.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeMain/kotlin/org/jetbrains/skiko/Resources.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/org/jetbrains/skiko/Resources.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeTest/kotlin/org/jetbrains/skia/skottie/AnimationTest.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeTest/kotlin/org/jetbrains/skia/skottie/AnimationTest.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeTest/kotlin/org/jetbrains/skia/util/makeFromResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeTest/kotlin/org/jetbrains/skia/util/makeFromResource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/src/nativeTest/kotlin/org/jetbrains/skiko/tests/TestUtils.native.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeTest/kotlin/org/jetbrains/skiko/tests/TestUtils.native.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/tools/codesign-client-darwin-x64" beforeDir="false" afterPath="$PROJECT_DIR$/tools/codesign-client-darwin-x64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/tools/sealer-arm64" beforeDir="false" afterPath="$PROJECT_DIR$/tools/sealer-arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skiko/tools/sealer-x64" beforeDir="false" afterPath="$PROJECT_DIR$/tools/sealer-x64" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/skiko">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="add-setBitmapsEmbedded" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KzpdfOkLMW41xPJMPCaa0BCO5N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/skiko&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Kotlin.ApplicationKt">
+    <configuration name="ApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ApplicationKt" />
+      <module name="EmbeddedBitmapsSample.main" />
+      <shortenClasspath name="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="skiko" />
+      <shortenClasspath name="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="skiko" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.ApplicationKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d00e9ed8-1cb5-4d28-8f13-da662762ac51" name="Changes" comment="" />
+      <created>1674987356017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674987356017</updated>
+      <workItem from="1674987357501" duration="3122000" />
+      <workItem from="1674990521264" duration="143000" />
+      <workItem from="1674990678693" duration="30000" />
+      <workItem from="1674990715962" duration="360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
